@@ -1,1 +1,39 @@
+public class PCItaliana extends PlatoComida implements IPromoitaliana{
+    private String insumoBase = "pasta,salsa";
+
+    public PCItaliana() {
+    }
+
+    public String getInsumoBase() {
+        return insumoBase;
+    }
+
+    public void setInsumoBase(String insumoBase) {
+        this.insumoBase = insumoBase;
+    }
+    
+    public String reporte(){
+    return "reporte completo de comida italiana: ";
+    }
+
+    @Override
+    public String getpromo() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public String getvigenciapromo() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public int getdecuento() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public double getnuevocostoventa() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+}
 
