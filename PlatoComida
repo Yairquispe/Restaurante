@@ -1,1 +1,46 @@
+public class PlatoComida {
+    private String nombre;
+    private String insumos;
+    private String elaboracion;
+    private Empledo xempledo ; 
+    
+    
+    public PlatoComida(){
+    }
 
+    
+    
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getInsumos() {
+        return insumos;
+    }
+
+    public void setInsumos(String insumos) {
+        this.insumos = insumos;
+    }
+
+    public String getElaboracion() {
+        return elaboracion;
+    }
+
+    public void setElaboracion(String elaboracion) {
+        this.elaboracion = elaboracion;
+    }
+
+    public Empledo getXempledo() {
+        return xempledo;
+    }
+
+    public void setXempledo(Empledo xempledo) {
+        this.xempledo = xempledo;
+    }
+    
+    
+}
