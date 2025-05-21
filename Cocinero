@@ -1,1 +1,17 @@
+public class Cocinero extends Empledo{
+    private String especialidadC;
 
+    public Cocinero() {
+    }
+
+    public String getEspecialidadC() {
+        return especialidadC;
+    }
+
+    public void setEspecialidadC(String especialidadC) {
+        this.especialidadC = especialidadC;
+    }
+    
+    
+    
+}
