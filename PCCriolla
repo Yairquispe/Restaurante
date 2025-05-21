@@ -1,1 +1,39 @@
+public class PCCriolla extends PlatoComida  implements IPromocriolla{
+    private String insumosBase= "papa,arroz,aderezo";
+
+    public PCCriolla() {
+    }
+
+    public String getInsumosBase() {
+        return insumosBase;
+    }
+
+    public void setInsumosBase(String insumosBase) {
+        this.insumosBase = insumosBase;
+    }
+    
+    public String reporte(){
+    return "reporte de comida criolla: " ; 
+    }
+
+    @Override
+    public String getNombrePromo() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public String getvigenciapromo() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public int getNumplatosmin() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public int getporcdescuento() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+}
 
