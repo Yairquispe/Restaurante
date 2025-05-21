@@ -1,1 +1,54 @@
+public class Boletaventa {
+     private Cliente alguncliente;
+     private PlatoComida algunplato;
+     private String fecha; 
+     private String descuento; 
+     private double totalpagar; 
+
+    public Boletaventa() {
+    }
+
+    public Cliente getAlguncliente() {
+        return alguncliente;
+    }
+
+    public void setAlguncliente(Cliente alguncliente) {
+        this.alguncliente = alguncliente;
+    }
+
+    public PlatoComida getAlgunplato() {
+        return algunplato;
+    }
+
+    public void setAlgunplato(PlatoComida algunplato) {
+        this.algunplato = algunplato;
+    }
+
+    public String getFecha() {
+        return fecha;
+    }
+
+    public void setFecha(String fecha) {
+        this.fecha = fecha;
+    }
+
+    public String getDescuento() {
+        return descuento;
+    }
+
+    public void setDescuento(String descuento) {
+        this.descuento = descuento;
+    }
+
+    public double getTotalpagar() {
+        return totalpagar;
+    }
+
+    public void setTotalpagar(double totalpagar) {
+        this.totalpagar = totalpagar;
+    }
+     
+     
+     
+}
 
