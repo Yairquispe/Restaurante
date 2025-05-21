@@ -1,1 +1,14 @@
+public interface IPromoitaliana{
+    
+     String nombrePromo = "Promo a la italiana"; 
+    
+    public final String vigencia = "02/05/25 - 02/07/25";
+    int descuente = 10; 
+    
+    public abstract String getpromo();
+    String getvigenciapromo();
+    int getdecuento();
+    
+    double getnuevocostoventa();
+}
 
