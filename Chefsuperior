@@ -1,1 +1,20 @@
+public class Chefsupeiror  extends Empledo {
+    private String sedeSupervisor; 
+
+    public Chefsupeiror() {
+    }
+
+    public String getSedeSupervisor() {
+        return sedeSupervisor;
+    }
+
+    public void setSedeSupervisor(String sedeSupervisor) {
+        this.sedeSupervisor = sedeSupervisor;
+    }
+    
+    public String Reporte(){
+    return "informacion completa del cher supeiro: carlos manuesl"; 
+    
+    }
+}
 
